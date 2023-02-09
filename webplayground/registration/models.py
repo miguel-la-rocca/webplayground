@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.dispatch import receiver
 from django.db.models.signals import post_save
 
+
 def custom_upload_to(instance, filename):
     old_instance = Profile.objects.get(pk=instance.pk)
     old_instance.avatar.delete()
