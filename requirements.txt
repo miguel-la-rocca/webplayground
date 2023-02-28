@@ -43,7 +43,7 @@ pylint-django==2.5.3
 pylint-plugin-utils==0.7
 pyparsing==3.0.9
 python-dateutil==2.8.2
-pywin32==304
+
 pyzmq==24.0.1
 six==1.16.0
 sqlparse==0.4.2
